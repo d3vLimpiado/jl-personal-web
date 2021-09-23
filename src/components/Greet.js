@@ -84,7 +84,7 @@ export default function Greet() {
         <GreetWrapper>
             <span>👋Hello! I am</span>
             <span className="myName">JOSHUA LIMPIADO.</span>
-            <span className="des-head">Enthusiast to{window.innerWidth < 480 ? <br/>:""} Native/Web Apps</span>
+            <span className="des-head">Enthusiast to Native/Web Apps</span>
             <p className="des-body">I am currently focusing in developing web apps using one of the latest Techs such as ReactJS and will develop native apps with the use of React Native that aims to develop user-friendly and accessible apps.</p>
             <MoreButton href="#AboutMe">More AboutMe!</MoreButton>
         </GreetWrapper>
