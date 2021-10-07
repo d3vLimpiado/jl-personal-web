@@ -35,6 +35,7 @@ const ContactWrapper = styled.section`
     display: flex;
     flex-direction: column;
     padding: 2em 0;
+    grid-row: 4;
 
     @media screen and (min-width: 1200px) {
         width: 70%;
@@ -44,12 +45,20 @@ const ContactWrapper = styled.section`
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+        height: 80%;
+
+        @media screen and (min-width: 800px){
+            height: 90%;
+        }
+
         h1 {
             span {
                 color: var(--jl-blue);
             }
         }
         p {
+            margin-top: 2em;
             text-align: center;
         }
         a {
@@ -66,18 +75,34 @@ const ContactWrapper = styled.section`
             cursor: pointer;
             text-align: center;
             padding: 1.5em 0;
+            transition: background .20s ease-in;
 
             @media screen and (min-width: 800px) {
                 width: 250px;
                 height: 80px;
                 margin: 3em 0;
             }
+
+            &:hover{
+                background: #5f5f5f;
+            }
         }
     }
 
     footer {
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         text-align: center;
-        margin-top: auto;
+        
+        span{
+            color: var(--jl-white);
+        }
+
+        @media screen and (min-width: 800px){
+            height: 10%;
+        }
     }
 `;
 
@@ -95,7 +120,7 @@ export default function Contacts() {
                     my skills. Feel free to contact me by clicking the button
                     below or via this email: <br /> jianlimpiado@gmail.com
                 </p>
-                <a href="mailto:jianlimpiado@gmail.com">Get in touch.</a>
+                <a href="mailto:jianlimpiado@gmail.com">Get in touch</a>
             </div>
             <Footer>
                 <IconContext.Provider
@@ -133,7 +158,7 @@ export default function Contacts() {
                     </SocialIcons>
                 </IconContext.Provider>
                 Designed and Built by yours truly, <br />
-                Joshua B. Limpiado
+                <span>Joshua B. Limpiado</span>
             </Footer>
         </ContactWrapper>
     );
