@@ -5,7 +5,7 @@ import { JlPortfolio, WeatherReact } from "../images";
 const ProjectWrapper = styled.div`
     margin: 4em 0;
     width: 90%;
-
+    grid-row: 3;
     h1 {
         span {
             color: var(--jl-blue);
