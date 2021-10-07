@@ -19,7 +19,6 @@ const GreetWrapper = styled.div`
     }
     .des-head{
         font-size: var(--jl-fs-lg);
-        opacity: 0.6;
     }
     .des-body{
         width: 80%;
@@ -84,8 +83,8 @@ export default function Greet() {
         <GreetWrapper>
             <span>👋Hello! I am</span>
             <span className="myName">JOSHUA LIMPIADO.</span>
-            <span className="des-head">Enthusiast to Native/Web Apps</span>
-            <p className="des-body">I am currently focusing in developing web apps using one of the latest Techs such as ReactJS and will develop native apps with the use of React Native that aims to develop user-friendly and accessible apps.</p>
+            <span className="des-head">Web/Native Apps Enthusiast</span>
+            <p className="des-body">Currently concentrated in developing web apps using one of the latest Javascript Library, ReactJS that aims to develop user-friendly and accessible web apps.</p>
             <MoreButton href="#AboutMe">More AboutMe!</MoreButton>
         </GreetWrapper>
     )
