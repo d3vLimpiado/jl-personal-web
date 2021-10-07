@@ -7,6 +7,7 @@ const variables = css`
         --jl-black: #222222;
         --jl-blue: #2e75b7;
         --jl-white: #F9F9F9;
+        --jl-fade: #C5C5C5;
         
         /* font-sizes */
         --jl-fs-reg: 12px;
