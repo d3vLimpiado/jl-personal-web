@@ -1,11 +1,14 @@
 {
   "name": "jl-personal-web",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
-  "description": "jl-personal-web",
+  "description": "Joshua Limpiado's Personal Web page designed and built in ReactJS with the help of GatsbyJS as its framework.",
   "keywords": [
-    "gatsby"
+    "gatsby", "ReactJS", "Personal Portfolio Project"
   ],
+  "homepage":"https://github.com/d3vLimpiado/jl-personal-web",
+  "license": "MIT",
+  "author": "Joshua Limpiado <d3vlimpiado@gmail.com> (https://d3vlimpiad.netlify.app/)",
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
